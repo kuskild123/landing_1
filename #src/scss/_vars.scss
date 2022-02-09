@@ -1,0 +1,35 @@
+body {
+	--accent: #C08FFF;
+	--back: linear-gradient(90.07deg, #0A0A0A 0.06%, #1D1527 51.82%, #0A0A0A 102.09%);
+	--back_solid: #15101C;
+	--back_darken: #100b17;
+	--back_lighten: #2B2434;
+	--back_lighten__2: rgba(43, 36, 52, 0.6);
+	--border_size: 2px;
+	--decoration__1: #4F435F;
+	--decoration__2: #2B2434;
+	--text: #fff;
+	--white: #fff;
+	--shadow_color: rgba(192, 143, 255, 0.7);
+	--card_gradient: linear-gradient(180deg, rgba(48, 48, 48, 0.24) 0%, rgba(80, 54, 76, 0.42) 100%);
+	--footer_back: #0D0B11;
+	&._light_theme {
+		--accent: #b400ff;
+		--back: #fafbff;
+		--back_solid: #eae3ff;
+		--back_darken: #f0ccff;
+		--back_lighten: #f0ccff;
+		--back_lighten__2: #fff;
+		--border_size: 2px;
+		--decoration__1: #ca8fe3;
+		--decoration__2: rgba(202, 143, 227, 0.35);
+		--text: #2c2c30;
+		--white: #000;
+		--shadow_color: rgba(0,0,0,.2);
+		--card_gradient: linear-gradient(180deg, #eae3ff, #daa6ff);
+		--footer_back: #c8c5c9;
+	}
+}
+$media_1: 1300px;
+$media_2: 992px;
+$media_3: 720px;

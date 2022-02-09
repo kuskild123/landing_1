@@ -1,0 +1,236 @@
+@media (max-width: $media_1) {
+	.container {
+		padding: 0 25px;
+	}
+	.about {
+		font-size: 8.5px;
+		.about__content__head .item:not(:last-child) {
+			padding-right: 2.5em;
+			margin-right: 2.5em;
+		}
+	}
+	.services__item {
+		min-height: unset;
+		padding: 3rem 3% 6rem;
+		.subtitle {
+			font-size: 3rem;
+		}
+	}
+	.portfolio .filter__items {
+		column-gap: 0px;
+    	row-gap: 10vh;
+    	justify-content: space-between;
+    	.filter__item {
+    		flex: 0 0 48%;
+    	}
+	}
+	.reviews__item__part {
+		min-height: unset;
+		padding: 15px 18px 15vh;
+	}
+	.contact__name {
+		margin-bottom: 1.5rem;
+	}
+	.contacts {
+		justify-content: center;
+	}
+	.contact {
+		min-height: unset;
+		padding: 3rem 1.75rem 2rem;
+		flex: 0 0 260px;
+	}
+	.contact__link {
+		padding-top: 3rem;
+	}
+	.footer .footer__socitems {
+		width: unset;
+	}
+}
+
+@media( max-width: $media_2 ) {
+	.footer {
+		padding: 4rem 10px 80px;
+	}
+	.header {
+		padding: 0.3rem 1rem;
+		max-width: 95%;
+	}
+	.section+.section {
+		margin-top: 9rem;
+	}
+	html {
+		font-size: 6.5px;	
+	}
+	.toggle_mode {
+		width: 55px;
+		height: 55px;
+	}
+}
+
+@media( max-width: $media_3 ) {
+	.container {
+		padding: 0 20px;
+	}
+	.main {
+		padding-top: 120px;
+	}
+	.main__content {
+		padding-top: 0;
+		padding-bottom: 70px;
+		.main__content__btn_container .btn__v1 {
+			margin-right: 20px;
+		}
+	}
+	.main__sidebar {
+		left: 50%;
+		max-width: 200px;
+		top: unset;
+		bottom: 0;
+		width: 100%;
+		margin-left: -100px;
+	}
+	.btn {
+		padding: 10px 4rem;
+	}
+	.about {
+		font-size: 7.5px;
+	}
+	.about__wrapper {
+		justify-content: unset;
+		align-items: unset;
+		flex-direction: column;
+	}
+	.about__content {
+		padding-top: 8vh;
+		flex: unset;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+	.about__content__head {
+		margin-bottom: 3em;
+		justify-content: center;
+	}
+	.about__content__body {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		text-align: center;
+	}
+	.about__img {
+		flex: unset;
+		max-width: 320px;
+		margin: 0 auto;
+	}
+	.about .about__content__head .item:not(:last-child) {
+		padding: 0;
+		margin: 0;
+	}
+	.services__items {
+		column-gap: 35px;
+		row-gap: 30px;
+		justify-content: center;
+	}
+	.services__item {
+		flex: 1 0 250px;
+		min-height: 160px;
+		max-width: 280px;
+		width: 100%;
+		padding: 4.5rem 5% 3.5rem;
+		border-top-left-radius: 20px;
+	}
+	.portfolio .filter__items .filter__item {
+		flex: 1 0 250px;
+		max-width: 400px;
+	}
+	.portfolio .filter__items {
+		column-gap: 25px;
+		row-gap: 35px;
+		justify-content: center;
+	}
+	.reviews__item {
+		flex-direction: column;
+		row-gap: 25px;
+	}
+	.reviews__item__part {
+		padding: 12px 10px 25px;
+		max-width: 520px;
+		margin: 0 auto;
+		width: 100%;
+	}
+	.contact {
+		min-height: 140px;
+	}
+	.footer {
+		flex-direction: column;
+		align-items: center;
+		row-gap: 45px;
+	}
+	.footer .footer__socitems .footer__socitem {
+		flex: unset;
+	}
+	.footer .footer__socitems {
+		column-gap: 4rem;
+	}
+	.footer .footer__subtitle {
+		padding-top: 1.5rem;
+		font-size: 11px;
+	}
+	.about__content__head {
+		flex-wrap: wrap;
+		row-gap: 30px;
+		column-gap: 35px;
+	}
+	.about__content__head .item:not(:last-child):after {
+		display: none;
+	}
+	.main__socicons {
+		padding: 0;
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		align-items: flex-end;
+
+	}
+	.decoration_timeline {
+		display: none;
+	}
+	.header {
+		overflow-x: scroll;
+		width: 80%;
+		display: flex;
+		justify-content: flex-start;
+		padding: .2rem 2rem;
+		max-width: 80%;
+	}
+	.section__content {
+		padding-top: 5rem;
+	}
+	.about__content__body .btn__container{
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		row-gap: 2rem;
+		.btn {
+			margin-right: 0;
+		}
+	}
+	.portfolio .filter {
+		column-gap: 2rem;
+		row-gap: 3rem;
+		padding-bottom: 5rem;
+	}
+	.services {
+		padding-top: 5rem;
+	}
+	.reviews_slider .swiper-pagination {
+		top: 5rem;
+	}
+	.reviews_slider {
+		padding-top: 12rem;
+	}
+	.contacts {
+		padding-top: 5rem;
+	}
+}

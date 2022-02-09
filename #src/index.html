@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link
+	rel="stylesheet"
+	href="https://unpkg.com/swiper/swiper-bundle.min.css"
+	/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Landing Page</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header anime-items anime_opacity">
+			<div class="header__items">
+				<a href="#sect_main" class="header__item tool top _active" data-tool="home">
+					<svg>
+						<use href="img/stack/icons/icons.svg#menu_icon01"></use>
+					</svg>
+				</a>
+				<a href="#sect_about" class="header__item tool top" data-tool="about me">
+					<svg>
+						<use href="img/stack/icons/icons.svg#menu_icon02"></use>
+					</svg>
+				</a>
+				<a href="#sect_experience" class="header__item tool top" data-tool="my experience">
+					<svg>
+						<use href="img/stack/icons/icons.svg#menu_icon03"></use>
+					</svg>
+				</a>
+				<a href="#sect_services" class="header__item tool top" data-tool="my services">
+					<svg>
+						<use href="img/stack/icons/icons.svg#menu_icon04"></use>
+					</svg>
+				</a>
+				<a href="#sect_portfolio" class="header__item tool top" data-tool="my portfolio">
+					<svg>
+						<use href="img/stack/icons/icons.svg#menu_icon05"></use>
+					</svg>
+				</a>
+				<a href="#sect_reviews" class="header__item tool top" data-tool="my reviews">
+					<svg>
+						<use href="img/stack/icons/icons.svg#menu_icon06"></use>
+					</svg>
+				</a>
+				<a href="#sect_contacts" class="header__item tool top" data-tool="my contacts">
+					<svg>
+						<use href="img/stack/icons/icons.svg#menu_icon07"></use>
+					</svg>
+				</a>
+			</div>
+		</header>
+		<div class="menu anime-items anime_opacity">
+			<div class="container menu__wrapper">
+				<a href="#" class="menu__logo">WebSkill</a>
+				<button class="btn toggle_mode">
+					<svg>
+						<use href="img/stack/icons/icons.svg#bx-sun"></use>
+					</svg>
+					<svg>
+						<use href="img/stack/icons/icons.svg#moon"></use>
+					</svg>
+				</button>
+			</div>
+		</div>
+		<main class="main">
+			<div class="container">
+				@@include('partials/_main.html')
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__item">
+				<a href="#" class="footer__logo">WebSkill</a>
+				<h2 class="subtitle subtitle__v2 footer__subtitle">&#169; WebSkill. All rights reserved</h2>
+			</div>
+			<div class="footer__item">
+				<div class="links">
+					<h2 class="subtitle footer__col_title">Links</h2>
+					<div class="links__items__wrapper">
+						<div class="links__items">
+							<a href="#" class="links__item">View CV</a>
+							<a href="#" class="links__item">About me</a>
+							<a href="#" class="links__item">Contact me</a>
+							<a href="#" class="links__item">Request a call</a>
+						</div>
+						<div class="links__items">
+							<a href="#" class="links__item">View FAQ</a>
+							<a href="#" class="links__item">WhatsApp</a>
+							<a href="#" class="links__item">Telegram</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__item footer__socitems">
+				<a href="#" class="footer__socitem">
+					<svg>
+						<use href="img/stack/icons/icons.svg#bxl-telegram"></use>
+					</svg>
+				</a>
+				<a href="#" class="footer__socitem">
+					<svg>
+						<use href="img/stack/icons/icons.svg#bxl-vk"></use>
+					</svg>
+				</a>
+				<a href="#" class="footer__socitem">
+					<svg>
+						<use href="img/stack/icons/icons.svg#bxl-whatsapp"></use>
+					</svg>
+				</a>
+				<a href="#" class="footer__socitem">
+					<svg>
+						<use href="img/stack/icons/icons.svg#bxs-phone"></use>
+					</svg>
+				</a>
+			</div>
+		</footer>
+	</div>
+	<div class="preloader">
+		<div class="preloader__item">
+			<h2 class="subtitle subtitle__v2">Loading</h2>
+			<div class="loading__items">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/script.min.js"></script>
+</html>
